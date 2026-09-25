@@ -2,7 +2,6 @@ import warnings
 import time
 import json
 import httpx
-import csv
 import html
 from bs4 import BeautifulSoup
 from bs4 import XMLParsedAsHTMLWarning
@@ -36,12 +35,7 @@ def parse_event_page(url):
               items = data if isinstance(data, list) else [data]
               for item in items:
                     if item.get("@type") == "Event":
-                          return {
-                                "title": item.get("name"),
-                                "start": item.get("startDate"),
-                                "end": item.get("endDate"),
-                                "url": item.get("url", url),
-                          }
+                        return item
         return None
 
 def main():
@@ -50,13 +44,10 @@ def main():
         for url in urls:
             event = parse_event_page(url)
             events.append(event)
+            print(event)
             time.sleep(10)
 
         events = [e for e in events if e is not None]
 
-        with open("dd_events.csv", "w", newline="", encoding="utf-8") as file:
-              writer = csv.writer(file)
-              writer.writerow(["Title", "Start", "End", "URL"])
-              for event in events:
-                    title = html.unescape(event["title"])
-                    writer.writerow([title, event["start"], event["end"], event["url"]])
+        with open("dd_events.json", "w", encoding="utf-8") as file:
+              json.dump(events, file, indent=2)

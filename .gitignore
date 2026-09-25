@@ -8,4 +8,4 @@ wheels/
 
 # Virtual environments
 .venv
-dd_events.csv
+dd_events.json
