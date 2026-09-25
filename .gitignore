@@ -9,3 +9,5 @@ wheels/
 # Virtual environments
 .venv
 dd_events.json
+dd_events.csv
+
