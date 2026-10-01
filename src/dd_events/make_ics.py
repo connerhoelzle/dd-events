@@ -4,71 +4,51 @@ import json
 from icalendar import Calendar, Event
 import datetime as dt
 import zoneinfo
-import pprint
 from pathlib import Path
 import html
 from bs4 import BeautifulSoup
 
 
-#import json data
-with open("dd_events.json", "r", encoding="utf-8") as file:  # with open() as : is a convention ensuring the file closes after run
-    data = json.load(file)  # data is a list of dicts (list[0] is a dictionary created from json data)
-
-# DEFINE ICS STRUCTURE. 
-#test with minimum required data
-#cal = Calendar.new()
-#event = Event.new(
-#                start=dt.datetime(2026, 3, 21, 6, 30, 0, tzinfo=zoneinfo.ZoneInfo("UTC")),
-#                end=dt.datetime(2026, 3, 21, 7, 30, 0, tzinfo=zoneinfo.ZoneInfo("UTC")),
-#                summary="meeting to develop the game the luncher")
-#cal.add_component(event) # adds the above event to cal
-
-#path = Path("test.ics")
-#path.write_bytes(cal.to_ical()) # using pathlib.Path is a more modern convention for working with filepaths vs. with open
-
-#go get necessary json data
-# start = dt.datetime.fromisoformat(data[0]["startDate"]).astimezone(dt.timezone.utc)
-
-# end = dt.datetime.fromisoformat(data[0]["endDate"]).astimezone(dt.timezone.utc)
-
-# summary = data[0]["name"] 
-cal = Calendar.new(name="Downtown Dallas Events Calendar")
-
-for event in data:
-    start = dt.datetime.fromisoformat(event["startDate"]).astimezone(dt.timezone.utc)
-    end = dt.datetime.fromisoformat(event["endDate"]).astimezone(dt.timezone.utc)
-    summary = event["name"] 
-    description = event["description"]
-    description=html.unescape(description)
-    soup = BeautifulSoup(description, "html.parser")
-    read_more = soup.find("a", class_="excerpt-read-more")
+def clean_description(raw_description_value):                               # cleans messy description value
+    description = html.unescape(raw_description_value)                      # removes weird html stuff
+    soup = BeautifulSoup(description, "html.parser")                        # creates soup object
+    read_more = soup.find("a", class_="excerpt-read-more")                  # finds weird <a> class with "read more" text
     if read_more:
-        read_more.decompose()
+        read_more.decompose()                                               # executes if True
+    description = soup.get_text(" ", strip=True).strip().replace("\\n", "") # inserts " " between fragments, replaces "\\n"
+    return description
 
-    component = Event.new(
-                    start=start,
-                    end=end,
-                    summary=html.unescape(summary),
-                    description = soup.get_text(" ", strip=True).strip().replace("\\n", "")
+
+def get_event_info(raw_event_dict):                                                     # returns formatted event from raw event text
+    start = dt.datetime.fromisoformat(raw_event_dict["startDate"]).astimezone(dt.timezone.utc)  # gets "startDate" value -> UTC
+    end = dt.datetime.fromisoformat(raw_event_dict["endDate"]).astimezone(dt.timezone.utc)      # ""
+    if end - start >= dt.timedelta(hours=24):
+        start = start.date()
+        end = end.date() + dt.timedelta(days=1)
+    summary = raw_event_dict["name"]                                                            # gets "name" value
+    description = raw_event_dict["description"]                                                 # gets "description" value
+    component = Event.new(                                          # creates new event
+                    start=start,                                    # inputs converted "startDate" value
+                    end=end,                                        # ""
+                    summary=html.unescape(summary),                 # "" after removing weird html stuff
+                    description=clean_description(description)      # inputs cleaned "description" value
                     )
-    cal.add_component(component)
-
-
-path = Path("dd_events.ics")
-path.write_bytes(cal.to_ical()) # using pathlib.Path is a more modern convention for working with filepaths vs. with open
-
-
-##format data as necessary
+    return component
 
 
 
-#input data into ics structure
-# cal = Calendar.new(name="Downtown Dallas Events Calendar")
-# event = Event.new(
-#                start=start,
-#                end=end,
-#                summary=summary
-#                )
-# cal.add_component(event)
-# print(cal.to_ical().decode())
-# return formatted ics event
+
+
+def main():
+#import json data
+    with open("dd_events.json", "r", encoding="utf-8") as file:  # with open() as : is a convention ensuring the file closes after run
+        data = json.load(file)  # data is a list of dicts (list[0] is a dictionary created from json data)
+
+    cal = Calendar.new(name="Downtown Dallas Events Calendar")      # defines calendar
+
+    for raw_event in data:                          # iterates through data
+        event_component = get_event_info(raw_event)           # gets formatted event info
+        cal.add_component(event_component)                    # adds event info to calendar
+
+    path = Path("dd_events.ics")
+    path.write_bytes(cal.to_ical()) # using pathlib.Path is a more modern convention for working with filepaths vs. with open
