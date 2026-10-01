@@ -6,6 +6,8 @@ import datetime as dt
 import zoneinfo
 import pprint
 from pathlib import Path
+import html
+from bs4 import BeautifulSoup
 
 
 #import json data
@@ -36,10 +38,18 @@ for event in data:
     start = dt.datetime.fromisoformat(event["startDate"]).astimezone(dt.timezone.utc)
     end = dt.datetime.fromisoformat(event["endDate"]).astimezone(dt.timezone.utc)
     summary = event["name"] 
+    description = event["description"]
+    description=html.unescape(description)
+    soup = BeautifulSoup(description, "html.parser")
+    read_more = soup.find("a", class_="excerpt-read-more")
+    if read_more:
+        read_more.decompose()
+
     component = Event.new(
                     start=start,
                     end=end,
-                    summary=summary
+                    summary=html.unescape(summary),
+                    description = soup.get_text(" ", strip=True).strip().replace("\\n", "")
                     )
     cal.add_component(component)
 
