@@ -1,12 +1,12 @@
 # the point is to take the raw json events data and convert it to ics format
 
-import json
-from icalendar import Calendar, Event
 import datetime as dt
-import zoneinfo
-from pathlib import Path
 import html
+import json
+from pathlib import Path
+
 from bs4 import BeautifulSoup
+from icalendar import Calendar, Event
 
 
 def clean_description(raw_description_value):                               # cleans messy description value
