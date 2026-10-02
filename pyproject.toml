@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "Conner Hoelzle", email = "connerhoelzle@gmail.com" }
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     "beautifulsoup4>=4.15.0",
     "httpx>=0.28.1",
@@ -20,3 +20,8 @@ dd-events-ics = "dd_events.make_ics:main"
 [build-system]
 requires = ["uv_build>=0.12.18,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.10",
+]
