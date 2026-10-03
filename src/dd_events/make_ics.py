@@ -39,14 +39,23 @@ def get_postal_address(raw_location_dict):
     else: 
         name = raw_location_dict.get("name")
 
-    if raw_location_dict.get("address") is not None:
-        street_address = raw_location_dict.get("address").get("streetAddress")
-        address_locality = raw_location_dict.get("address").get("addressLocality")
+    get_address = raw_location_dict.get("address")
+    if get_address is not None:
+        street_address = get_address.get("streetAddress")
+        address_locality = get_address.get("addressLocality")
         address_region = "Texas"
-        postal_code = raw_location_dict.get("address").get("postalCode")
+        postal_code = get_address.get("postalCode")
         country = "United States"
-        if (street_address is not None) and (address_locality is not None) and (postal_code is not None):
-            full_address = f"{name}\n{street_address}\n{address_locality}, {address_region} {postal_code}\n{country}" 
+        if (
+            street_address is not None
+            and address_locality is not None
+            and postal_code is not None
+            ):
+
+            full_address = (
+                    f"{name}\n{street_address}\n{address_locality}, "
+                    f"{address_region} {postal_code}\n{country}"
+                    )
             return full_address, name # returns tuple so that I can work with name on the X-APPLE line
         else:
             return None, name # returns tuple so that the street_address, name = line works whether there is location data or not
@@ -55,8 +64,10 @@ def get_postal_address(raw_location_dict):
 
 
 def get_event_info(raw_event_dict):                                                     # returns formatted event from raw event text
-    start = dt.datetime.fromisoformat(raw_event_dict["startDate"]).astimezone(dt.timezone.utc)  # gets "startDate" value -> UTC
-    end = dt.datetime.fromisoformat(raw_event_dict["endDate"]).astimezone(dt.timezone.utc)      # ""
+    start_iso_parse = dt.datetime.fromisoformat(raw_event_dict["startDate"])
+    start = start_iso_parse.astimezone(dt.timezone.utc)  # gets "startDate" value -> UTC
+    end_iso_parse = dt.datetime.fromisoformat(raw_event_dict["endDate"])
+    end = end_iso_parse.astimezone(dt.timezone.utc)      # ""
     if end - start >= dt.timedelta(hours=24):
         start = start.date()
         end = end.date() + dt.timedelta(days=1)
@@ -74,8 +85,16 @@ def get_event_info(raw_event_dict):                                             
                     )
     if geo != None: 
         component.add("GEO", geo)
+        latitude = geo[0]
+        longitude = geo[1]
+        
         name = html.unescape(name)
-        component.add("X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="f"\"{name}\"", f"geo:{geo[0]},{geo[1]}") # formats apple-specific location data
+        
+        apple_property_name = ("X-APPLE-STRUCTURED-LOCATION;"
+                               "VALUE=URI;X-TITLE="f"\"{name}\""
+                               )
+        apple_value = f"geo:{geo[0]},{geo[1]}"
+        component.add(apple_property_name, apple_value) # formats apple-specific location data
     if street_address is not None:
         component.add("LOCATION", street_address) 
     return component
