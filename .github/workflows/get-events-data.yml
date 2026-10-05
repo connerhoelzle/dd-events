@@ -1,0 +1,10 @@
+name: get events data daily
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  get-data:
+  runs on:
