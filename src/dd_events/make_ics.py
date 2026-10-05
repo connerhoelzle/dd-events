@@ -115,5 +115,5 @@ def main():
         cal.add_component(event_component)                    # adds event info to calendar
     
 
-    path = Path("dd_events.ics")
+    path = Path("docs/dd_events.ics")
     path.write_bytes(cal.to_ical()) # using pathlib.Path is a more modern convention for working with filepaths vs. with open
