@@ -41,7 +41,7 @@ def parse_event_page(url):
 def main():
         urls = get_event_urls()
         events = []
-        for url in urls[2:4]:
+        for url in urls:
             event = parse_event_page(url)
             events.append(event)
             print(event)
