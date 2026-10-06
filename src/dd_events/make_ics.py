@@ -110,7 +110,7 @@ def main():
 
     cal = Calendar.new(name="Downtown Dallas Events Calendar")      # defines calendar
 
-    for raw_event in data[2:4]:                          # iterates through data
+    for raw_event in data:                          # iterates through data
         event_component = get_event_info(raw_event)           # gets formatted event info
         cal.add_component(event_component)                    # adds event info to calendar
     
