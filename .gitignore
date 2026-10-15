@@ -11,3 +11,4 @@ wheels/
 
 dd_events.json
 dd_events.csv
+.DS_Store
