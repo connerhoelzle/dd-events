@@ -3,13 +3,13 @@ VERSION:2.0
 PRODID:-//collective//icalendar//7.3.0//EN
 NAME:Uptown Dallas Event Calendar
 X-WR-CALNAME:Uptown Dallas Event Calendar
-UID:f8799c32-292e-47c2-8fbf-8fc0b5e78ad4
+UID:c3cf8222-a3fb-4e6a-b29d-668fd20fa157
 BEGIN:VEVENT
 SUMMARY:Movies in the Park
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
-DTSTAMP:20261017T103801Z
-UID:1a571109-44e1-470f-88f2-42fb7a8abc66
+DTSTAMP:20261018T105359Z
+UID:e372ca3a-704a-46c7-bd0c-353a8f14c5e3
 DESCRIPTION:Join Uptown Dallas Inc. for Movies in the Park at Griggs Park 
  every Tuesday in October! 🎃
 LOCATION:2200 Hugo St\, Dallas\, TX 75204
@@ -18,8 +18,8 @@ BEGIN:VEVENT
 SUMMARY:Movies in the Park
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
-DTSTAMP:20261017T103801Z
-UID:e79dcbf6-df59-42a8-849a-1fdb5409a3b4
+DTSTAMP:20261018T105359Z
+UID:8d7d37bb-b505-420e-8b82-e20d478aeb84
 DESCRIPTION:Join Uptown Dallas Inc. for Movies in the Park at Griggs Park 
  every Tuesday in October! 🎃
 LOCATION:2200 Hugo St\, Dallas\, TX 75204
@@ -28,8 +28,8 @@ BEGIN:VEVENT
 SUMMARY:Movies in the Park
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
-DTSTAMP:20261017T103801Z
-UID:b6bdf70c-268e-45c7-93a8-999aa801fc7d
+DTSTAMP:20261018T105359Z
+UID:cc58bbaf-c417-4676-aac1-5a77479fe936
 DESCRIPTION:Join Uptown Dallas Inc. for Movies in the Park at Griggs Park 
  every Tuesday in October! 🎃
 LOCATION:2200 Hugo St\, Dallas\, TX 75204
@@ -38,8 +38,8 @@ BEGIN:VEVENT
 SUMMARY:Block Party
 DTSTART;TZID=America/Chicago:20261030T180000
 DTEND;TZID=America/Chicago:20261030T210000
-DTSTAMP:20261017T103801Z
-UID:afb6463e-33c0-40b1-bbcf-c89aa090250d
+DTSTAMP:20261018T105359Z
+UID:d50abb68-3d22-4f83-9492-40e4415c6f49
 DESCRIPTION:Uptown Dallas' 10th annual Block Party! Come celebrate this mi
  lestone with us.
 LOCATION:2200 Hugo St\, Dallas\, TX 75204
