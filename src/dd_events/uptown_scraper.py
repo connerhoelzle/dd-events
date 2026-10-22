@@ -1,10 +1,9 @@
-from bs4 import BeautifulSoup
-import httpx
-import pprint as pp
-from zoneinfo import ZoneInfo
 import datetime as dt
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
+import httpx
+from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
 
 # checks for two classes necessary to signify calendar graphic
@@ -24,9 +23,6 @@ def get_data(url):
         item = item.parent
         raw_events.append(item)
     return raw_events
-
-def make_ics(events_list):
-    cal = Calendar.new(name="Uptown Dallas Events Calendar")
 
 def to_dto(date, time):
     today = dt.datetime.today()
