@@ -20,9 +20,10 @@ jobs:
 
       - name: Run scraper and build ics
         run: |
-          uv run dd-events
-          uv run dd-events-ics
+          uv run downtown-scraper
+          uv run downtown-ics
           uv run uptown-scraper
+          uv run uptown-ics
 
       - name: Commit and push if changed
         run: |
