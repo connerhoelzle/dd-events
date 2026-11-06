@@ -14,9 +14,10 @@ dependencies = [
 ]
 
 [project.scripts]
-dd-events = "dd_events.downtown_scraper:main"
-dd-events-ics = "dd_events.make_ics:main"
+downtown-scraper = "dd_events.downtown_scraper:main"
+downtown-ics = "dd_events.downtown_ics:main"
 uptown-scraper = "dd_events.uptown_scraper:main"
+uptown-ics = "dd_events.uptown_ics:main" 
 
 [build-system]
 requires = ["uv_build>=0.12.18,<0.13.0"]
