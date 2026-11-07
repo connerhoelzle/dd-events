@@ -105,7 +105,8 @@ def get_event_info(raw_event_dict):                                             
 
 def main():
 #import json data
-    with open("dd_events.json", "r", encoding="utf-8") as file:  # with open() as : is a convention ensuring the file closes after run
+    path = 'data/raw/dd_events.json'
+    with open(path, "r", encoding="utf-8") as file:  # with open() as : is a convention ensuring the file closes after run
         data = json.load(file)  # data is a list of dicts (list[0] is a dictionary created from json data)
 
     cal = Calendar.new(name="Downtown Dallas Events Calendar")      # defines calendar

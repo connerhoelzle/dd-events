@@ -9,6 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
-dd_events.json
-dd_events.csv
+
 .DS_Store
+data/
+dd_events.csv

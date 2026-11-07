@@ -49,5 +49,7 @@ def main():
 
         events = [e for e in events if e is not None]
 
-        with open("dd_events.json", "w", encoding="utf-8") as file:
+        path = 'data/raw/dd_events.json'
+        path.parent.mkdir(parents=True, exist_ok=True) # makes data/raw/
+        with open(path, "w", encoding="utf-8") as file:
               json.dump(events, file, indent=2)
