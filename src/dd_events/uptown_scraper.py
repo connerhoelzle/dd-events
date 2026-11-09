@@ -1,6 +1,8 @@
+import json
+
 import httpx
 from bs4 import BeautifulSoup
-import json
+
 
 # checks for two classes necessary to signify calendar graphic
 def find_cal_graphic(class_list):

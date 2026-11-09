@@ -1,10 +1,11 @@
 # formats uptown json data into ics format
 import datetime as dt
+import json
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from icalendar import Calendar, Event
-import json
+
 
 def to_dto(date, time):
     today = dt.datetime.today()
@@ -41,11 +42,11 @@ def main():
         etime = raw_event['time']
         start, end = to_dto(edate, etime)
         event = Event.new(
-            summary=event['title'],
+            summary=raw_event['title'],
             start=start,
             end=end,
-            location=event['address'],
-            description=event['description']
+            location=raw_event['address'],
+            description=raw_event['description']
             )
         cal.add_component(event)
 

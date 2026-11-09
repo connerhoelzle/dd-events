@@ -1,5 +1,3 @@
-# the point is to take the raw json events data and convert it to ics format
-
 import datetime as dt
 import html
 import json
@@ -9,13 +7,14 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
 
 
-def clean_description(raw_description_value):                               # cleans messy description value
-    description = html.unescape(raw_description_value)                      # removes weird html stuff
-    soup = BeautifulSoup(description, "html.parser")                        # creates soup object
-    read_more = soup.find("a", class_="excerpt-read-more")                  # finds weird <a> class with "read more" text
+# cleans messy description value
+def clean_description(raw_description_value):                               
+    description = html.unescape(raw_description_value)  # removes weird html stuff
+    soup = BeautifulSoup(description, "html.parser")                        
+    read_more = soup.find("a", class_="excerpt-read-more")  # finds weird <a> class with "read more" text
     if read_more:
-        read_more.decompose()                                               # executes if True
-    description = soup.get_text(" ", strip=True).strip().replace("\\n", "") # inserts " " between fragments, replaces "\\n"
+        read_more.decompose()                                               
+    description = soup.get_text(" ", strip=True).strip().replace("\\n", "") 
     return description
 
 def get_geo(raw_location_dict):
@@ -56,31 +55,29 @@ def get_postal_address(raw_location_dict):
                     f"{name}\n{street_address}\n{address_locality}, "
                     f"{address_region} {postal_code}\n{country}"
                     )
-            return full_address, name # returns tuple so that I can work with name on the X-APPLE line
+            return full_address, name 
         else:
-            return None, name # returns tuple so that the street_address, name = line works whether there is location data or not
-    else:
-        return None, name
+            return None, name 
 
 
-def get_event_info(raw_event_dict):                                                     # returns formatted event from raw event text
+def get_event_info(raw_event_dict): # returns formatted event from raw event text
     start_iso_parse = dt.datetime.fromisoformat(raw_event_dict["startDate"])
-    start = start_iso_parse.astimezone(dt.timezone.utc)  # gets "startDate" value -> UTC
+    start = start_iso_parse.astimezone(dt.timezone.utc)  
     end_iso_parse = dt.datetime.fromisoformat(raw_event_dict["endDate"])
-    end = end_iso_parse.astimezone(dt.timezone.utc)      # ""
+    end = end_iso_parse.astimezone(dt.timezone.utc)      
     if end - start >= dt.timedelta(hours=24):
         start = start.date()
         end = end.date() + dt.timedelta(days=1)
-    summary = raw_event_dict["name"]                                                            # gets "name" value
-    description = raw_event_dict["description"]                                                 # gets "description" value
+    summary = raw_event_dict["name"]                                                            
+    description = raw_event_dict["description"]                                                 
     url = raw_event_dict["url"]
-    street_address, name = get_postal_address(raw_event_dict.get("location")) # tuple so that I can work with name in X-APPLE line
+    street_address, name = get_postal_address(raw_event_dict.get("location")) 
     geo = get_geo(raw_event_dict.get("location"))
-    component = Event.new(                                          # creates new event
-                    start=start,                                    # inputs converted "startDate" value
-                    end=end,                                        # ""
-                    summary=html.unescape(summary),                 # "" after removing weird html stuff
-                    description=clean_description(description),      # inputs cleaned "description" value
+    component = Event.new(                                          
+                    start=start,                                    
+                    end=end,
+                    summary=html.unescape(summary),
+                    description=clean_description(description),
                     url=url
                     )
     if geo != None: 
@@ -93,7 +90,7 @@ def get_event_info(raw_event_dict):                                             
         apple_property_name = ("X-APPLE-STRUCTURED-LOCATION;"
                                "VALUE=URI;X-TITLE="f"\"{name}\""
                                )
-        apple_value = f"geo:{geo[0]},{geo[1]}"
+        apple_value = f"geo:{latitude},{longitude}"
         component.add(apple_property_name, apple_value) # formats apple-specific location data
     if street_address is not None:
         component.add("LOCATION", street_address) 
@@ -104,17 +101,17 @@ def get_event_info(raw_event_dict):                                             
 
 
 def main():
-#import json data
     path = 'data/raw/dd_events.json'
-    with open(path, "r", encoding="utf-8") as file:  # with open() as : is a convention ensuring the file closes after run
-        data = json.load(file)  # data is a list of dicts (list[0] is a dictionary created from json data)
+ 
+ # with open() as : is a convention ensuring the file closes after run
+    with open(path, "r", encoding="utf-8") as file:  
+        data = json.load(file)  
+    cal = Calendar.new(name="Downtown Dallas Events Calendar")
 
-    cal = Calendar.new(name="Downtown Dallas Events Calendar")      # defines calendar
-
-    for raw_event in data:                          # iterates through data
-        event_component = get_event_info(raw_event)           # gets formatted event info
-        cal.add_component(event_component)                    # adds event info to calendar
+    for raw_event in data:
+        event_component = get_event_info(raw_event)
+        cal.add_component(event_component)
     
 
     path = Path("docs/dd_events.ics")
-    path.write_bytes(cal.to_ical()) # using pathlib.Path is a more modern convention for working with filepaths vs. with open
+    path.write_bytes(cal.to_ical())

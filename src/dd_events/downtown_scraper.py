@@ -1,10 +1,10 @@
-import warnings
-import time
 import json
+import time
+import warnings
+from pathlib import Path
+
 import httpx
-import html
-from bs4 import BeautifulSoup
-from bs4 import XMLParsedAsHTMLWarning
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
@@ -49,7 +49,7 @@ def main():
 
         events = [e for e in events if e is not None]
 
-        path = 'data/raw/dd_events.json'
+        path = Path('data/raw/dd_events.json')
         path.parent.mkdir(parents=True, exist_ok=True) # makes data/raw/
         with open(path, "w", encoding="utf-8") as file:
               json.dump(events, file, indent=2)
