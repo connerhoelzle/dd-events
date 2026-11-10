@@ -2,7 +2,7 @@ import json
 
 import httpx
 from bs4 import BeautifulSoup
-
+from pathlib import Path
 
 # checks for two classes necessary to signify calendar graphic
 def find_cal_graphic(class_list):
@@ -49,9 +49,9 @@ def main():
                       }
 
         events_list.append(event_dict)
-    path = 'data/raw/ut_events.json' 
+    path = Path('data/raw/ut_events.json')
     path.parent.mkdir(parents=True, exist_ok=True) # makes data/raw/
     with open(path, "w", encoding="utf-8") as file:
         json.dump(events_list, file, indent=2)
     
-    print('ut_events.json file path:', '...') #get this working at some point
+    print('ut_events.json file path:', path)

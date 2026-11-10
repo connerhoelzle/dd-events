@@ -53,3 +53,4 @@ def main():
         path.parent.mkdir(parents=True, exist_ok=True) # makes data/raw/
         with open(path, "w", encoding="utf-8") as file:
               json.dump(events, file, indent=2)
+        print('dd_events.json path:', path)
