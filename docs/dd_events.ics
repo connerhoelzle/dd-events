@@ -3,13 +3,13 @@ VERSION:2.0
 PRODID:-//collective//icalendar//7.3.0//EN
 NAME:Downtown Dallas Events Calendar
 X-WR-CALNAME:Downtown Dallas Events Calendar
-UID:367b35fa-7cc0-438c-9c5c-18629804d63e
+UID:b8ba2684-6c70-4a33-a3cb-222177094f92
 BEGIN:VEVENT
 SUMMARY:Wildflower Volunteer Day at Carpenter Park
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
-DTSTAMP:20261111T140555Z
-UID:979f9040-3bdd-480a-bc53-5a691ab9ef26
+DTSTAMP:20261112T150911Z
+UID:868e525a-efe5-4706-a9ae-0827c8d75ebc
 DESCRIPTION:Get your hands dirty and help Carpenter Park bloom! Join our g
  arden crew for a morning of hands-on volunteering and breakfast tacos. Dow
  ntown Dallas Parks Conservancy is bringing neighbors together... 
@@ -25,8 +25,8 @@ BEGIN:VEVENT
 SUMMARY:Come Tea Us x Harwood Tavern: Sip & Create Social Series
 DTSTART:20261028T220000Z
 DTEND:20261029T000000Z
-DTSTAMP:20261111T140555Z
-UID:667a2e1c-403d-4c26-b88f-a373f1017845
+DTSTAMP:20261112T150911Z
+UID:704fecbf-d4a3-4288-8982-331ffc6f04a5
 DESCRIPTION:The Sip & Create Social Series is a monthly interactive experi
  ence bringing together creativity\, connection\, and a little midweek fun 
  in the heart of Dallas. Designed as a midweek reset\,... 
@@ -39,8 +39,8 @@ BEGIN:VEVENT
 SUMMARY:Blitzen’s Holiday Bar at Omni Dallas Hotel
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20270106
-DTSTAMP:20261111T140555Z
-UID:d4c7cec5-895c-4fcb-a97b-9afa57f4122b
+DTSTAMP:20261112T150911Z
+UID:70ff2a6f-af05-4b10-a209-0eb1d97e55ac
 DESCRIPTION:Step into Dallas’ most festive holiday pop-up at Blitzen’s
   Holiday Bar. Hops & Hens transforms into an immersive Christmas escape fi
  lled with twinkling lights\, over-the-top décor\, seasonal cocktails and 
@@ -57,8 +57,8 @@ BEGIN:VEVENT
 SUMMARY:TITAS/DANCE UNBOUND Presents  PHILADANCO!
 DTSTART:20270509T003000Z
 DTEND:20270509T023000Z
-DTSTAMP:20261111T140555Z
-UID:289584d0-506d-40a8-9183-a4962a1d896a
+DTSTAMP:20261112T150911Z
+UID:888939c5-f33d-407b-bb39-d0c9ea9a973f
 DESCRIPTION:Founded in 1970 by the remarkable Joan Myers Brown\, The Phila
  delphia Dance Company (PHILADANCO!) has grown from a bold idea into one of
   the most respected dance companies in the... 
@@ -74,8 +74,8 @@ BEGIN:VEVENT
 SUMMARY:Nasher Prize Celebration
 DTSTART:20261114T230000Z
 DTEND:20261115T020000Z
-DTSTAMP:20261111T140555Z
-UID:b1a4ad82-2210-4527-847b-c35a0761238e
+DTSTAMP:20261112T150911Z
+UID:0b3340f7-a625-4498-a3e6-d6288a8d0315
 DESCRIPTION:Join the Nasher Sculpture Center for its first ever public con
  ferral of the Nasher Prize\, celebrating the 9th Nasher Prize Laureate Pet
  rit Halilaj. This vibrant evening will include art\, music\,... 
@@ -90,8 +90,8 @@ BEGIN:VEVENT
 SUMMARY:Holidays with the Turtle Creek Chorale
 DTSTART:20261212T003000Z
 DTEND:20261212T023000Z
-DTSTAMP:20261111T140555Z
-UID:dd2e7cec-8ef2-47bb-8e72-43c8778632a6
+DTSTAMP:20261112T150911Z
+UID:aeb80af3-bde3-41ee-b991-9f2d090c0807
 DESCRIPTION:This December\, the Turtle Creek Chorale invites audiences to 
  celebrate the holiday season with one of North Texas\\' most beloved tradi
  tions. Now in its 46th year\, the annual holiday concert... 
@@ -107,8 +107,8 @@ BEGIN:VEVENT
 SUMMARY:Holidays with the Turtle Creek Chorale
 DTSTART:20261211T013000Z
 DTEND:20261211T033000Z
-DTSTAMP:20261111T140555Z
-UID:a58fa528-60b4-4d98-97a5-320b9743c0e4
+DTSTAMP:20261112T150911Z
+UID:ac38cc5e-0877-4705-b8bc-59ebf52837ab
 DESCRIPTION:This December\, the Turtle Creek Chorale invites audiences to 
  celebrate the holiday season with one of North Texas\\' most beloved tradi
  tions. Now in its 46th year\, the annual holiday concert... 
@@ -121,8 +121,8 @@ BEGIN:VEVENT
 SUMMARY:Comedian Alex Clark | Jokes From The Brink
 DTSTART:20261106T010000Z
 DTEND:20261106T023000Z
-DTSTAMP:20261111T140555Z
-UID:88df4450-0c90-4d13-83a7-e9e09110925d
+DTSTAMP:20261112T150911Z
+UID:bc6612ae-8dff-425c-b6d2-71fbf730a983
 DESCRIPTION:After 2 decades of performing everywhere from Australia to the
   Vegas strip Alex has mastered funny ways of oversharing. His act has been
   featured on Netflix is a Joke and... 
@@ -135,8 +135,8 @@ BEGIN:VEVENT
 SUMMARY:Nasher Prize Celebration
 DTSTART:20261114T230000Z
 DTEND:20261115T020000Z
-DTSTAMP:20261111T140555Z
-UID:b1084472-752b-484d-82c3-8cfe7c61fa97
+DTSTAMP:20261112T150911Z
+UID:d18e2b96-9b69-4665-bbcc-a42fc8f8ff54
 DESCRIPTION:Join the Nasher Sculpture Center for its first ever public con
  ferral of the Nasher Prize\, celebrating the 9th Nasher Prize Laureate Pet
  rit Halilaj. This vibrant evening will include art\, music\,... 
@@ -151,8 +151,8 @@ BEGIN:VEVENT
 SUMMARY:Nasher Prize Celebration
 DTSTART:20261114T230000Z
 DTEND:20261115T020000Z
-DTSTAMP:20261111T140555Z
-UID:79210af8-38a9-4e2d-86d9-4e678c1e71c6
+DTSTAMP:20261112T150911Z
+UID:d16b35a8-c434-470e-b1e9-43d299b50767
 DESCRIPTION:Join the Nasher Sculpture Center for its first ever public con
  ferral of the Nasher Prize\, celebrating the 9th Nasher Prize Laureate Pet
  rit Halilaj. This vibrant evening will include art\, music\,... 
@@ -167,8 +167,8 @@ BEGIN:VEVENT
 SUMMARY:Pre-Curtain Singles Mixer and Performance
 DTSTART:20261115T000000Z
 DTEND:20261115T033000Z
-DTSTAMP:20261111T140555Z
-UID:c3743830-c9ba-4b0a-a6cf-ecb9f21dceff
+DTSTAMP:20261112T150911Z
+UID:8a2eb8f4-fbcf-4eba-adf6-64f8cd7dd690
 DESCRIPTION:"Skip the swiping. Find the plot & your soulmate": Join us bef
  ore the show to enjoy a pre-curtain Singles Mixer in collaboration with Gi
  nger-Me Events! Enjoy delicious bites\, a cocktail\,... 
@@ -181,8 +181,8 @@ BEGIN:VEVENT
 SUMMARY:TITAS/DANCE UNBOUND Presents  STEP AFRIKA!
 DTSTART:20270116T013000Z
 DTEND:20270116T033000Z
-DTSTAMP:20261111T140555Z
-UID:44ee678b-5a20-4ea7-b17d-72d6c4e1aa5f
+DTSTAMP:20261112T150911Z
+UID:bb2405f7-9440-4e7d-9142-a4903555d0fd
 DESCRIPTION:Irresistibly joyful\, tightly synchronized\, and completely in
  genious\, Step Afrika! always brings the house down\, and The Evolution To
  ur is coming to TITAS! As the first professional company devoted to the...
@@ -199,8 +199,8 @@ BEGIN:VEVENT
 SUMMARY:Thanksgiving Day Offerings
 DTSTART:20261126T090000Z
 DTEND:20261127T085959Z
-DTSTAMP:20261111T140555Z
-UID:7c9a8c8a-091c-49db-a10d-c45a124c86eb
+DTSTAMP:20261112T150911Z
+UID:adc11eed-ff40-41fa-81d8-246079163741
 DESCRIPTION:Gather and give thanks at JW Steakhouse with two harvest-inspi
  red dining experiences. Enjoy a festive Thanksgiving Brunch featuring the 
  rich flavors of the season\, or gather with family and friends... 
@@ -212,8 +212,8 @@ BEGIN:VEVENT
 SUMMARY:All Saints Community Remembrance Service
 DTSTART:20261105T170000Z
 DTEND:20261105T180000Z
-DTSTAMP:20261111T140555Z
-UID:63e1b7c4-76d6-4389-9106-c651640a8864
+DTSTAMP:20261112T150911Z
+UID:3f4c8141-18ac-41e7-8e8f-59f6707f8652
 DESCRIPTION:The Stewpot and First Presbyterian Church of Dallas invite the
   community to the annual All Saints Service of Remembrance on Thursday\, N
  ovember 5\, at 11 AM. The service will honor... 
@@ -229,8 +229,8 @@ BEGIN:VEVENT
 SUMMARY:Twilight in Concert
 DTSTART:20270122T013000Z
 DTEND:20270122T033000Z
-DTSTAMP:20261111T140555Z
-UID:e349b13b-fd7b-4e8b-9ba6-20d7b85f4ef4
+DTSTAMP:20261112T150911Z
+UID:8515cc1a-0eca-48a1-9232-e955f3376c17
 DESCRIPTION:Experience Twilight (2008) like never before with Twilight in 
  Concert\, a live-to-film event featuring a 12-piece ensemble performing th
  e iconic score alongside the film\, illuminated by over a thousand candles
@@ -246,8 +246,8 @@ BEGIN:VEVENT
 SUMMARY:2026 AURORA Biennial: States of Becoming
 DTSTART:20261122T010000Z
 DTEND:20261122T053000Z
-DTSTAMP:20261111T140555Z
-UID:ad013d18-f637-41dc-bc53-f8b0850c352e
+DTSTAMP:20261112T150911Z
+UID:7976b09a-7116-47ea-89fb-4aface32048a
 DESCRIPTION:Experience AURORA’s culminating night of art\, technology an
  d immersive projections at Dallas City Hall\, free and open to all on Nove
  mber 21. On November 21 at Dallas City Hall\, the... 
@@ -263,8 +263,8 @@ BEGIN:VEVENT
 SUMMARY:Howl-o-ween & Doggy Costume Contest
 DTSTART:20261024T183000Z
 DTEND:20261024T193000Z
-DTSTAMP:20261111T140555Z
-UID:f4d43e45-e711-419e-ad17-75160b174a0b
+DTSTAMP:20261112T150911Z
+UID:0101e0d9-0f1a-4f40-9727-627e640bc1c6
 DESCRIPTION:The Dallas Farmers Market is excited to host our 2nd Annual Ho
  wl-o-ween! The day will be jammed packed with lots of fun for the dogs and
   pets alike. We will... 
@@ -280,8 +280,8 @@ BEGIN:VEVENT
 SUMMARY:Wine Tour to Eden Hill Winery & Vineyard
 DTSTART:20261114T190000Z
 DTEND:20261114T220000Z
-DTSTAMP:20261111T140555Z
-UID:04f63d44-a08a-40f8-ac15-86980870faad
+DTSTAMP:20261112T150911Z
+UID:afb62375-93f3-4916-8d90-ab6b79da720d
 DESCRIPTION:🍷 Wine Tour to Eden Hill Winery & Vineyard 🍷 Join the Da
  llas Farmers Market on Saturday\, November 14 for a special agritourism ex
  perience to Eden Hill Winery in Celina\,... 
@@ -298,8 +298,8 @@ SUMMARY:Wine Tour to Eden Hill Winery & Vineyard from Dallas Farmers Marke
  t
 DTSTART:20261114T175000Z
 DTEND:20261114T220000Z
-DTSTAMP:20261111T140555Z
-UID:c7a16c29-d93f-4c2a-b13c-7aa2e8ac9533
+DTSTAMP:20261112T150911Z
+UID:cd89a8ef-f864-4853-969f-70c1e8c26511
 DESCRIPTION:🍷 Wine Tour to Eden Hill Winery & Vineyard 🍷 Join the Da
  llas Farmers Market on Saturday\, November 14 for a special agritourism ex
  perience to Eden Hill Winery in Celina\,... 
@@ -315,8 +315,8 @@ BEGIN:VEVENT
 SUMMARY:North Texas Kindness Week Festival Nov. 7
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:26261109
-DTSTAMP:20261111T140555Z
-UID:18063a56-008b-461e-9839-3282403db533
+DTSTAMP:20261112T150911Z
+UID:48d4b285-4c66-4963-90b6-a24dcc09c6a6
 DESCRIPTION:Celebrate kindness with a free\, family-friendly day of music
  \, dance\, food and community connection in the Dallas Arts District. The 
  North Texas Kindness Festival kicks off North Texas Kindness Week\,... 
@@ -332,8 +332,8 @@ BEGIN:VEVENT
 SUMMARY:North Texas Kindness Week Festival on Nov. 7
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261110
-DTSTAMP:20261111T140555Z
-UID:3ce59fd9-4e64-4342-9014-37f4aa6b5a94
+DTSTAMP:20261112T150911Z
+UID:3d223ba6-4a58-4841-825d-5ae5acf75441
 DESCRIPTION:Celebrate kindness with a free\, family-friendly day of music
  \, dance\, food and community connection in the Dallas Arts District. The 
  North Texas Kindness Festival kicks off North Texas Kindness Week\,... 
@@ -349,8 +349,8 @@ BEGIN:VEVENT
 SUMMARY:The Who’s Tommy
 DTSTART:20270604T003000Z
 DTEND:20270604T023000Z
-DTSTAMP:20261111T140555Z
-UID:28ece933-4fdc-4983-9541-09ba785b30a2
+DTSTAMP:20261112T150911Z
+UID:9acb45c6-235b-403d-8b6f-0447644015ee
 DESCRIPTION:THE WHO’S TOMMY returns in a dazzling all‑new production o
  f the groundbreaking rock opera that changed music and theater forever. Fe
  aturing unforgettable anthems like “Pinball Wizard” and “See Me\, Fe
@@ -367,8 +367,8 @@ SUMMARY:Opening of “Twisted\, Plaited\, Sculpted: Collection of the Carl
   & Marilynn Thoma Foundation”
 DTSTART:20261107T170000Z
 DTEND:20261107T230000Z
-DTSTAMP:20261111T140555Z
-UID:7d21f140-b9e0-44c9-aedf-fa134fc122c4
+DTSTAMP:20261112T150911Z
+UID:35cfb81e-1a88-40eb-8a0e-483893b3f72b
 DESCRIPTION:The Crow Museum of Asian Art is pleased to present a selection
   of Japanese bamboo art from the Carl & Marilynn Thoma Foundation collecti
  on. Bamboo art\, one of four... 
@@ -381,8 +381,8 @@ BEGIN:VEVENT
 SUMMARY:Noche De Recuerdos – A Dia De Los Muertos Celebration
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261104
-DTSTAMP:20261111T140555Z
-UID:935bbc7d-7820-434f-a1a5-6babc6da89c7
+DTSTAMP:20261112T150911Z
+UID:f2ee4c5e-6cd6-4eb1-a9f3-50aa3d8e7702
 DESCRIPTION:A Celebration Of Life\, Memory & Mexico Join us at Luna Roja f
  or Noche de Recuerdos\, a warm and colorful Dia de los Muertos celebration
   honoring life\, memory\, and authentic... 
@@ -394,8 +394,8 @@ BEGIN:VEVENT
 SUMMARY:Día de los Muertos Parade Watch  & Halloween Party
 DTSTART:20261031T230000Z
 DTEND:20261101T030000Z
-DTSTAMP:20261111T140555Z
-UID:433c77eb-b076-455a-88fc-982138ccce4b
+DTSTAMP:20261112T150911Z
+UID:10fd1638-471e-49b2-9eed-aaed4d51af35
 DESCRIPTION:Can’t miss the Día de los Muertos Dallas Parade? Us either.
   And this year it’s on Halloween! Join us Saturday\, 10/31 for our Hallo
  ween & Parade Watch Party! Details: -Starts... 
@@ -411,8 +411,8 @@ BEGIN:VEVENT
 SUMMARY:Noche De Brujas
 DTSTART:20261101T010000Z
 DTEND:20261101T010000Z
-DTSTAMP:20261111T140555Z
-UID:a3e8e0d8-4bca-45f4-940f-297c316e3fca
+DTSTAMP:20261112T150911Z
+UID:5d8824f4-9e4d-4a28-a53c-1d5c9c37cb95
 DESCRIPTION:A Halloween Night Under The Red Moon 
 LOCATION:Luna Roja\n1525 Elm Street\nDallas\, Texas 75201\nUnited States
 URL:https://downtowndallas.com/event/302879/
@@ -421,8 +421,8 @@ BEGIN:VEVENT
 SUMMARY:Noche De Recuerdos
 DTSTART:20261030T220000Z
 DTEND:20261030T220000Z
-DTSTAMP:20261111T140555Z
-UID:0828a5b4-6a6d-49f0-8f7f-2b16c24d112c
+DTSTAMP:20261112T150911Z
+UID:5a7f84d1-6cd3-43e5-b6cc-ed0da96cb6dd
 DESCRIPTION:A Celebration Of Life\, Memory & Mexico 
 LOCATION:Luna Roja\n1525 Elm Street\nDallas\, Texas 75201\nUnited States
 URL:https://downtowndallas.com/event/noche-de-recuerdos/2026-10-30/
@@ -432,8 +432,8 @@ SUMMARY:Opening of “Twisted\, Plaited\, Sculpted: Collection of the Carl
   & Marilynn Thoma Foundation”
 DTSTART:20261107T090000Z
 DTEND:20261108T085959Z
-DTSTAMP:20261111T140555Z
-UID:70925c5d-b738-4ca1-a74b-91a3a8e43282
+DTSTAMP:20261112T150911Z
+UID:f2bce7f8-5f8e-451f-8b9c-1b5f8c089687
 DESCRIPTION:The Crow Museum of Asian Art is pleased to present a selection
   of Japanese bamboo art from the Carl & Marilynn Thoma Foundation collecti
  on. Bamboo art\, one of four major... 
@@ -446,8 +446,8 @@ BEGIN:VEVENT
 SUMMARY:Kickball Adult League
 DTSTART:20261014T000000Z
 DTEND:20261014T020000Z
-DTSTAMP:20261111T140555Z
-UID:7a35fe4f-204a-4133-95f7-c68991b5202a
+DTSTAMP:20261112T150911Z
+UID:6fb7674b-fa3e-4013-9b09-c8fcc5cb89f0
 DESCRIPTION:The Y and Downtown Dallas Inc. have partnered together to prov
  ide a recreational experience for downtown Dallas residents. The Kickball 
  Adult League will run for six-weeks with games played on... 
@@ -462,8 +462,8 @@ BEGIN:VEVENT
 SUMMARY:Night at the Museum
 DTSTART:20261115T013000Z
 DTEND:20261115T053000Z
-DTSTAMP:20261111T140555Z
-UID:cbc10b1d-9be3-418c-a5ca-edd864746777
+DTSTAMP:20261112T150911Z
+UID:8b4d9f3e-922b-4c0c-9abc-f0048baec27b
 DESCRIPTION:Experience an unforgettable evening of wonder and discovery at
   the Perot Museum of Nature and Science’s annual fundraising gala\, Nigh
  t at the Museum. Guests will enjoy exceptional cuisine\, signature cocktai
@@ -479,8 +479,8 @@ BEGIN:VEVENT
 SUMMARY:TITAS/DANCE UNBOUND Presents  ALONZO KING LINES BALLET
 DTSTART:20261220T013000Z
 DTEND:20261220T033000Z
-DTSTAMP:20261111T140555Z
-UID:81d6485d-09d5-412c-a51b-fe180fe4775c
+DTSTAMP:20261112T150911Z
+UID:7223fa7b-40f3-497f-8d75-1af04351a98b
 DESCRIPTION:Stunning. Breathtaking. Pure Magic. This is the visceral react
  ion that defines an Alonzo King LINES Ballet performance. If you’re look
  ing for a powerful\, sophisticated alternative to the traditional holiday 
@@ -497,8 +497,8 @@ BEGIN:VEVENT
 SUMMARY:TITAS/DANCE UNBOUND Presents  PILOBOLUS
 DTSTART:20261107T013000Z
 DTEND:20261107T033000Z
-DTSTAMP:20261111T140555Z
-UID:6759b20a-cd53-4596-8585-929d96a8470c
+DTSTAMP:20261112T150911Z
+UID:543e7995-7855-41b0-9787-72371fdb841b
 DESCRIPTION:Pilobolus has always been a rebel in the dance world. A rule b
  reaker\, an innovator\, a perfect fit for TITAS. It all started with three
   college students: Moses Pendleton\, an... 
@@ -514,8 +514,8 @@ BEGIN:VEVENT
 SUMMARY:THE CUNNING LITTLE VIXEN
 DTSTART:20261031T003000Z
 DTEND:20261031T023000Z
-DTSTAMP:20261111T140555Z
-UID:5ddca567-60cb-472a-8c44-f2c27e97ad19
+DTSTAMP:20261112T150911Z
+UID:ef627ac4-3deb-4ca6-908f-dd2c6d5e1c13
 DESCRIPTION:Colorful Survival of Man Versus Animal This is no ordinary fox
  ! Composer Leoš Janáček tells the story of a young fox\, trapped by the
   forester as a cub. She makes... 
@@ -530,8 +530,8 @@ BEGIN:VEVENT
 SUMMARY:Texas Cattle & Cab Dinner
 DTSTART:20261024T000000Z
 DTEND:20261024T030000Z
-DTSTAMP:20261111T140555Z
-UID:a4d35f1d-930f-45bb-a393-f495857c3e80
+DTSTAMP:20261112T150911Z
+UID:32e918ef-4074-413c-b214-c4733dce13f8
 DESCRIPTION:An evening of elevated dining awaits. Savor premium cuts from 
  Outpost 76 Farms\, artfully prepared through innovative culinary technique
  s and complemented by a collection of prestigious Cabernet Sauvignons. A r
@@ -544,8 +544,8 @@ BEGIN:VEVENT
 SUMMARY:Garrison Brothers Old Fashioned Workshop
 DTSTART:20261016T000000Z
 DTEND:20261016T013000Z
-DTSTAMP:20261111T140555Z
-UID:00ec66a9-cd84-42f6-a81d-c0c10debccbd
+DTSTAMP:20261112T150911Z
+UID:c60e0d1b-4893-42af-b5f7-6439344bd15b
 DESCRIPTION:Discover the story behind JW Steakhouse’s exclusive Garrison
   Brothers Single Barrel Selection in an interactive bourbon experience. Si
  p\, stir\, and master two distinctive Old Fashioned cocktails while enjoyi
@@ -560,8 +560,8 @@ SUMMARY:Pulitzer on the Road: Prize-Winning Works That Inform\, Empower &
  Inspire
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20270102
-DTSTAMP:20261111T140555Z
-UID:2556f472-7d8b-444d-be95-cb5fc191b568
+DTSTAMP:20261112T150911Z
+UID:fdf6700b-a36a-48d5-b2ae-58ceba8045d9
 DESCRIPTION:The Pulitzer Prizes and American Library Association are bring
  ing Pulitzer on the Road to the Dallas Public Library’s J. Erik Jonsson 
  Central Library this fall. Opening October 24\, the traveling... 
@@ -577,8 +577,8 @@ BEGIN:VEVENT
 SUMMARY:Clejan & Special Guest- DAMOYEE Live @ Deep Ellum Art. Co
 DTSTART:20261016T010000Z
 DTEND:20261016T023000Z
-DTSTAMP:20261111T140555Z
-UID:a74e86bc-d4ad-4c39-9e30-2dcfaeaa2868
+DTSTAMP:20261112T150911Z
+UID:7e8e5b07-6858-4604-afeb-8ede45bbbacd
 DESCRIPTION:Clejan is a boundary-breaking artist from Atlanta\, GA \, who 
  fuses heavy-hitting trap music with the elegance of the violin. A classica
  lly trained violinist since age 3\, he has independently... 
@@ -591,8 +591,8 @@ BEGIN:VEVENT
 SUMMARY:THE ELIXIR OF LOVE
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261019
-DTSTAMP:20261111T140555Z
-UID:7102542c-2596-4f15-9634-e97567dde727
+DTSTAMP:20261112T150911Z
+UID:ac8cc792-8076-4e7c-be1e-387d35c321b8
 DESCRIPTION:A hopeless romantic swoons for the town’s schoolteacher\, bu
  t she doesn’t even notice him. Along comes a traveling salesman with the
   perfect “magical elixir” to give him all his heart... 
@@ -607,8 +607,8 @@ BEGIN:VEVENT
 SUMMARY:Bravo! – AT&T Performing Arts Center
 DTSTART:20261120T000000Z
 DTEND:20261120T033000Z
-DTSTAMP:20261111T140555Z
-UID:0f324983-7137-4fac-a0a7-eff60a72c3c6
+DTSTAMP:20261112T150911Z
+UID:48e2ce07-d77b-4c12-a516-0461693c1e73
 DESCRIPTION:November 19\, 2026 Hosted by Caren Prothro\, Nita Clark\, and 
  Lili Clark Honoring Barbara Thomas Lemmon Margot and Bill Winspear Opera H
  ouse Join us for an unforgettable evening honoring the... 
@@ -623,8 +623,8 @@ BEGIN:VEVENT
 SUMMARY:A Party to Die For: Masquerade Murder Mystery at Sheraton Dallas
 DTSTART:20261031T000000Z
 DTEND:20261031T020000Z
-DTSTAMP:20261111T140555Z
-UID:abdd1920-cc67-40f8-9fa5-8cd773d103e5
+DTSTAMP:20261112T150911Z
+UID:4579f360-bf48-4c81-a66f-4ef19943c457
 DESCRIPTION:Sheraton Dallas presents A Party to Die For\, a one-night-only
   immersive murder mystery experience in The Parlor on Friday\, Oct. 30. Mi
  ngle with masked suspects\, uncover clues\, question characters\, and... 
@@ -640,8 +640,8 @@ BEGIN:VEVENT
 SUMMARY:Girls Just Want To Have Brunch
 DTSTART:20261017T150000Z
 DTEND:20261017T200000Z
-DTSTAMP:20261111T140555Z
-UID:062425be-bdcc-4313-be2a-55d9aa251b65
+DTSTAMP:20261112T150911Z
+UID:454ef280-866d-4fa7-a6e0-ba1633493290
 DESCRIPTION:Grab your friends and sing your hearts out as our DJ spins you
  r favorite throwbacks and sing-along hits all brunch long! 
 LOCATION:The Hampton Social\n1520 Main Street\nDallas\, Texas 75201\nUnite
@@ -653,8 +653,8 @@ BEGIN:VEVENT
 SUMMARY:YOU ARE NOT ALONE
 DTSTART:20261031T003000Z
 DTEND:20261031T023000Z
-DTSTAMP:20261111T140555Z
-UID:e47a9133-dc86-43a3-b2f2-d32559dd8304
+DTSTAMP:20261112T150911Z
+UID:e6a0fb16-c9f2-426c-8256-2fcb280a8833
 DESCRIPTION:For one unforgettable evening\, YOU ARE NOT ALONE brings power
  ful human stories\, the emotional depth of a live orchestra\, and the ener
  gy of hip-hop together for an immersive theatrical experience... 
@@ -668,8 +668,8 @@ BEGIN:VEVENT
 SUMMARY:Mystic Pizza: A New Musical
 DTSTART:20261121T013000Z
 DTEND:20261121T033000Z
-DTSTAMP:20261111T140555Z
-UID:06fc9ce8-8ce3-49a5-9649-9f2a891baf6f
+DTSTAMP:20261112T150911Z
+UID:4f4ba072-de9a-4627-8c3e-010028f9b32f
 DESCRIPTION:MYSTIC PIZZA is a new musical inspired by the beloved 1988 rom
  ‑com\, following three working‑class girls chasing love\, friendship\,
   and big dreams inside a small‑town pizza joint. Packed with iconic... 
@@ -685,8 +685,8 @@ BEGIN:VEVENT
 SUMMARY:KELS at AM/FM Backyard
 DTSTART:20261019T130000Z
 DTEND:20261019T220000Z
-DTSTAMP:20261111T140555Z
-UID:5d4fa23a-167f-437f-b154-169f4b80d593
+DTSTAMP:20261112T150911Z
+UID:ed7a4ddd-1082-463a-84c3-22ae46b53bc6
 DESCRIPTION:Originally from Pittsburgh\, KELS built her career from the gr
  ound up. She moved from her hometown to Atlanta to pursue music and starte
  d cleaning houses by day to fund her... 
@@ -698,8 +698,8 @@ BEGIN:VEVENT
 SUMMARY:Susan G. Komen: 2026 Komen Dallas North Texas Race for the Cure
 DTSTART:20261017T113000Z
 DTEND:20261017T160000Z
-DTSTAMP:20261111T140555Z
-UID:433f54f3-4a8d-40ac-a4b4-3a2059b3bf9f
+DTSTAMP:20261112T150911Z
+UID:5a80c50c-b3d8-4283-8a0a-1cc3a2dc9f75
 DESCRIPTION:The Dallas Race for the Cure is the first Susan G. Komen Race.
   Join us this year to experience the celebration of our survivors and part
  icipants. Whether you walk\, run... 
@@ -712,8 +712,8 @@ BEGIN:VEVENT
 SUMMARY:Stage Fright: A Halloween Family Festival 2026 (FREE!)
 DTSTART:20261031T150000Z
 DTEND:20261031T180000Z
-DTSTAMP:20261111T140555Z
-UID:9cbc0853-81e6-4220-bd41-bf45cd6c80ed
+DTSTAMP:20261112T150911Z
+UID:e749a7e3-c0bb-4f25-897c-3c273fd4a816
 DESCRIPTION:Festival Highlights Learn about Dallas Police Department’s u
  nits through our “stick-r-treat” activity. Visit a unit\, get a sticke
  r. A “spooky” musical performance by students from Personalized Learni
@@ -729,8 +729,8 @@ BEGIN:VEVENT
 SUMMARY:Patio Sessions – The Round-Up Saloon (FREE!)
 DTSTART:20261029T223000Z
 DTEND:20261030T003000Z
-DTSTAMP:20261111T140555Z
-UID:84295aed-bb3c-4c59-89c4-3e70b5b5707e
+DTSTAMP:20261112T150911Z
+UID:797601c8-eea9-4614-97d3-924e0eba4128
 DESCRIPTION:BOOT-SCOOT-BOOOOGIE\, Line Dance Lessons & Saloon Social An in
  tro-friendly line dance social at AT&T Performing Arts Center featuring fr
  ee lessons\, live singing\, and the best jams around! Costumes welcome. Al
@@ -746,8 +746,8 @@ BEGIN:VEVENT
 SUMMARY:Patio Sessions – Brandon Blue (FREE!)
 DTSTART:20261022T223000Z
 DTEND:20261023T003000Z
-DTSTAMP:20261111T140555Z
-UID:8f0bb644-c522-4c74-9858-a9ea8b6e91f4
+DTSTAMP:20261112T150911Z
+UID:e436cee3-9d54-4b6e-bed4-2a53f4eb98c0
 DESCRIPTION:Brandon Blue is a Dallas-based DJ known for his high-energy\, 
  open-format sets and genre-blending sound. After seven years in New York C
  ity performing across top venues in Lower Manhattan and... 
@@ -761,8 +761,8 @@ BEGIN:VEVENT
 SUMMARY:Dealing with Anger\, Attachment and Craving
 DTSTART:20261103T010000Z
 DTEND:20261103T023000Z
-DTSTAMP:20261111T140555Z
-UID:3b2b7cdc-5df1-4e51-8761-3b5b17d6d911
+DTSTAMP:20261112T150911Z
+UID:4e55fdc3-2e2d-4a93-be91-6c12dc0c3219
 DESCRIPTION:A monthly series about how meditation opens the path to overco
  me our deepest suffering. Anger and attachment are two very dangerous mind
  s. Allowing this pair of deluded minds to arise... 
@@ -778,8 +778,8 @@ BEGIN:VEVENT
 SUMMARY:Richard Thomas in Mark Twain Tonight!
 DTSTART:20270428T003000Z
 DTEND:20270428T023000Z
-DTSTAMP:20261111T140555Z
-UID:4ea66d78-2d2d-4dbc-babd-5bbd649b10a4
+DTSTAMP:20261112T150911Z
+UID:354d24eb-521c-48c0-ab56-a5bded99daf2
 DESCRIPTION:Emmy-Award® winning Actor Richard Thomas brings to life “th
  e nation’s one true comic genius” (The New York Times) in Mark Twain T
  onight!\, written and originally performed by Hal Holbrook. Join... 
@@ -794,8 +794,8 @@ BEGIN:VEVENT
 SUMMARY:Pop\, Fizz\, Clink! – Post Cards From Rio
 DTSTART:20270423T153000Z
 DTEND:20270423T173000Z
-DTSTAMP:20261111T140555Z
-UID:d8b38b33-be40-44d7-b36b-4d5d18149896
+DTSTAMP:20261112T150911Z
+UID:31b15789-b25a-49c8-af63-161ec392c1ef
 DESCRIPTION:Mark your calendars\, Ascend Dallas’ signature luxury bubbly
   brunch\, “Pop\, Fizz\, Clink! - Post Cards From Rio\,” returns for it
  s 6th annual celebration on April 23\, 2027 at the Omni... 
@@ -810,8 +810,8 @@ BEGIN:VEVENT
 SUMMARY:TITAS/DANCE UNBOUND Presents  YUE YIN DANCE COMPANY
 DTSTART:20270403T003000Z
 DTEND:20270403T023000Z
-DTSTAMP:20261111T140555Z
-UID:adc3ac41-d289-4ba3-bb48-cee1725dc2b0
+DTSTAMP:20261112T150911Z
+UID:bb682fa0-a9a7-4fae-b4bf-654ea9783965
 DESCRIPTION:Every season\, TITAS takes a close look at the international t
  ouring scene to see which artists are emerging with something truly distin
  ctive. This year\, that company is YUE YIN Dance... 
@@ -827,8 +827,8 @@ BEGIN:VEVENT
 SUMMARY:Shucked
 DTSTART:20270320T003000Z
 DTEND:20270320T023000Z
-DTSTAMP:20261111T140555Z
-UID:c7f04130-ef8d-405f-9740-0e004bb092c3
+DTSTAMP:20261112T150911Z
+UID:ac5497ce-d421-4f58-b9b6-17c86f2bea08
 DESCRIPTION:Maizy and Beau are getting hitched\, when the corn that protec
  ts their small community starts to die. The town needs answers. But who wi
  ll dare to venture beyond the borders... 
@@ -843,8 +843,8 @@ BEGIN:VEVENT
 SUMMARY:THE LONE STAR VOCAL COMPETITION
 DTSTART:20270313T013000Z
 DTEND:20270313T033000Z
-DTSTAMP:20261111T140555Z
-UID:ee3044b3-1f8d-4d1f-8611-35383712f7cb
+DTSTAMP:20261112T150911Z
+UID:2ba6c5c9-601a-4076-9824-f896c9b6b184
 DESCRIPTION:Witness dreams come true as vocal talents from across Texas co
  nverge on the Winspear stage—and win cash prizes! Singers compete for th
  e opportunity to dazzle our judges and win the... 
@@ -859,8 +859,8 @@ BEGIN:VEVENT
 SUMMARY:LOHENGRIN
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270315
-DTSTAMP:20261111T140555Z
-UID:4ea6776a-6ce9-414e-882f-bde5b46bcd5c
+DTSTAMP:20261112T150911Z
+UID:633b27fc-046d-4589-9621-b3ebdad850a7
 DESCRIPTION:Wagner returns to Dallas in this stunning season finale with o
  ne of opera’s biggest stories! Accused of her brother’s murder\, Elsa 
  prays for a way to prove her innocence. In... 
@@ -875,8 +875,8 @@ BEGIN:VEVENT
 SUMMARY:TITAS/DANCE UNBOUND Presents  SOCIAL TANGO PROJECT
 DTSTART:20270227T013000Z
 DTEND:20270227T033000Z
-DTSTAMP:20261111T140555Z
-UID:b0249945-5ffc-4f56-a306-a725e468fb1d
+DTSTAMP:20261112T150911Z
+UID:6cdbab63-3d63-465b-8885-871736d59825
 DESCRIPTION:Tango is enjoying a surge of popularity around the world. As P
  amela Tatge of Jacob’s Pillow puts it\, “ is a dazzling performance th
  at showcases … talented Argentinian artists and... 
@@ -892,8 +892,8 @@ BEGIN:VEVENT
 SUMMARY:Marvel Studios’ Black Panther in Concert
 DTSTART:20270218T013000Z
 DTEND:20270218T033000Z
-DTSTAMP:20261111T140555Z
-UID:54385848-13fc-4c98-8c4a-1194872fa3ba
+DTSTAMP:20261112T150911Z
+UID:c411a475-109f-4f15-9971-e69eb508801e
 DESCRIPTION:Marvel Studios\, Disney Concerts and AMP Worldwide present Mar
  vel Studios’ Black Panther in Concert the North American Tour featuring 
  a screening of the groundbreaking film electrified by live performances fr
@@ -910,8 +910,8 @@ BEGIN:VEVENT
 SUMMARY:TURANDOT
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270222
-DTSTAMP:20261111T140555Z
-UID:2abac3fc-31fd-4bb7-b543-d8be9c54033f
+DTSTAMP:20261112T150911Z
+UID:85db2b0d-7a16-4e17-82bb-24f0fc0a3b5e
 DESCRIPTION:To win the hand of Princess Turandot\, a suitor must solve thr
  ee riddles\; failure to do so means death. No man seems up to the challeng
  e until an unknown prince... 
@@ -926,8 +926,8 @@ BEGIN:VEVENT
 SUMMARY:TITAS/DANCE UNBOUND Presents  ALAN LAKE FACTORI(E)
 DTSTART:20270206T013000Z
 DTEND:20270206T033000Z
-DTSTAMP:20261111T140555Z
-UID:6b4d40ab-f07a-4dd4-b527-1d059bec3565
+DTSTAMP:20261112T150911Z
+UID:bd953593-80ee-4578-a3db-99135392c660
 DESCRIPTION:Alan Lake Factori(e) returns to Dallas with another remarkable
   work that dives into myth\, perception\, and the many ways we interpret t
  he world around us. Dallas audiences first experienced Alan... 
@@ -943,8 +943,8 @@ BEGIN:VEVENT
 SUMMARY:Menopause the Musical
 DTSTART:20270206T013000Z
 DTEND:20270206T033000Z
-DTSTAMP:20261111T140555Z
-UID:17c41eb3-d9f8-439e-a7ce-2b6ca06dd730
+DTSTAMP:20261112T150911Z
+UID:1714b983-6a86-4ca6-b605-143da04e0c48
 DESCRIPTION:Menopause The Musical® – Join the party in celebrating two 
  decades of laughter & sisterhood! Four women at a lingerie sale have nothi
  ng in common but a black lace bra... 
@@ -958,8 +958,8 @@ BEGIN:VEVENT
 SUMMARY:TITUS FAMILY RECITAL SERIES: CHRISTIANE KARG
 DTSTART:20270131T200000Z
 DTEND:20270131T220000Z
-DTSTAMP:20261111T140555Z
-UID:b5e5a1f1-7e5a-47c2-a81b-f300c6f4fc54
+DTSTAMP:20261112T150911Z
+UID:3f2ceb81-2a8a-4f53-b31c-c661070d4cfd
 DESCRIPTION:German soprano Christiane Karg is a regular guest on the inter
  national stage\, be it in leading roles at the Metropolitan Opera\, Paris 
  Opera\, or La Scala\; as a soloist alongside... 
@@ -975,8 +975,8 @@ BEGIN:VEVENT
 SUMMARY:HART INSTITUTE FOR WOMEN CONDUCTORS SHOWCASE CONCERT
 DTSTART:20270131T013000Z
 DTEND:20270131T033000Z
-DTSTAMP:20261111T140555Z
-UID:6113c328-7608-44d8-bd53-9d2a14dbc88a
+DTSTAMP:20261112T150911Z
+UID:05e753d5-b359-488f-aeb0-f00826f2a545
 DESCRIPTION:To address gender imbalance on opera podiums\, TDO launched Th
  e Linda and Mitch Hart Institute for Women Conductors\, the only program o
  f its kind\, to train women conductors in 2015.... 
@@ -992,8 +992,8 @@ BEGIN:VEVENT
 SUMMARY:Winter Nights With Matteo Bocelli
 DTSTART:20261215T013000Z
 DTEND:20261215T033000Z
-DTSTAMP:20261111T140555Z
-UID:cc481b55-ed63-4f1e-a0d6-df84167e6583
+DTSTAMP:20261112T150911Z
+UID:99de0a0d-956b-42c2-9b54-8f030631873d
 DESCRIPTION:Matteo Bocelli\, the internationally acclaimed singer-songwrit
  er and son of Andrea Bocelli\, is forging his own path with a captivating 
  blend of classical heritage and contemporary romance\, enchanting audience
@@ -1009,8 +1009,8 @@ BEGIN:VEVENT
 SUMMARY:The Music of Hey Arnold Live!
 DTSTART:20261118T013000Z
 DTEND:20261118T033000Z
-DTSTAMP:20261111T140555Z
-UID:b1728f4c-72a9-4261-a4c0-b29f2a98b8af
+DTSTAMP:20261112T150911Z
+UID:7e3532f4-85c0-47d2-bcf8-8c0137147c13
 DESCRIPTION:he Music of Hey Arnold! Live featuring Jim Lang & The PS 118 A
  llStars celebrates the 30th anniversary of one of television’s most cher
  ished animated series. Led by award winning... 
@@ -1025,8 +1025,8 @@ BEGIN:VEVENT
 SUMMARY:October Movie Nights
 DTSTART:20261017T000000Z
 DTEND:20261017T020000Z
-DTSTAMP:20261111T140555Z
-UID:502503bf-c797-4b0c-9f28-89d54fef6bf8
+DTSTAMP:20261112T150911Z
+UID:e9a43e5b-a19e-4372-9915-df6851556702
 DESCRIPTION:Five Friday nights. Five classics of horror\, camp\, and the s
  upernatural. Downtown Dallas\, Inc. brings an outdoor movie series to Main
   Street Garden Park this October — a Halloween countdown... 
@@ -1041,8 +1041,8 @@ BEGIN:VEVENT
 SUMMARY:CultureMap City Rink | Main Street Garden
 DTSTART:20261120T160000Z
 DTEND:20261121T040000Z
-DTSTAMP:20261111T140555Z
-UID:e3752187-57fa-49cb-8d42-0a6eca73266e
+DTSTAMP:20261112T150911Z
+UID:d2237619-36ca-4592-992a-0d82d2d642b6
 DESCRIPTION:The CultureMap City Rink at Main Street Garden presented by Fo
  ssil returns for another magical holiday season in Downtown Dallas. Main S
  treet Garden will once again be transformed into a... 
@@ -1058,8 +1058,8 @@ BEGIN:VEVENT
 SUMMARY:CultureMap City Rink | Main Street Garden
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261111T140555Z
-UID:782c0bc4-72f9-497a-b543-0ac70b404e30
+DTSTAMP:20261112T150911Z
+UID:c611d8db-ec79-438c-9c6e-485747b87071
 DESCRIPTION:The CultureMap City Rink at Main Street Garden presented by Fo
  ssil returns for another magical holiday season in Downtown Dallas. Main S
  treet Garden will once again be transformed into a... 
@@ -1075,8 +1075,8 @@ BEGIN:VEVENT
 SUMMARY:Trick or Treat on Downtown Streets
 DTSTART:20261031T210000Z
 DTEND:20261101T000000Z
-DTSTAMP:20261111T140555Z
-UID:ec11cb1c-a27b-41a1-b628-54b18d277ceb
+DTSTAMP:20261112T150911Z
+UID:b1151586-136c-4243-b224-0ca9b3a90989
 DESCRIPTION:Join us for DDI\\'s 8th Annual Trick or Treat on Downtown Stre
  ets! Join us for a spooktacular night at the 8th Annual Trick or Treat on 
  Downtown Streets on Saturday\,... 
@@ -1091,8 +1091,8 @@ BEGIN:VEVENT
 SUMMARY:Grow & Gather Series
 DTSTART:20261112T190000Z
 DTEND:20261112T203000Z
-DTSTAMP:20261111T140555Z
-UID:5766c416-9051-4d03-a3ff-edb203501493
+DTSTAMP:20261112T150911Z
+UID:ce1aa569-3d0f-4d7d-917c-f8b39018047e
 DESCRIPTION:From plant parents to first-time gardeners\, everyone is invit
  ed to learn\, grow\, and connect this fall. Join Urban Dirt Gardening Comp
  any for a unique series of fall workshops. Enjoy hands-on... 
@@ -1104,8 +1104,8 @@ BEGIN:VEVENT
 SUMMARY:An Evening with Peter Billingsley and A Christmas Story
 DTSTART:20261213T230000Z
 DTEND:20261214T030000Z
-DTSTAMP:20261111T140555Z
-UID:30e578b4-187d-49b2-8413-c53f48f71a9c
+DTSTAMP:20261112T150911Z
+UID:f1f50fd7-627d-4b30-b301-e46bd77b65ba
 DESCRIPTION:Celebrate the holiday season with an unforgettable evening fea
  turing a screening of the beloved classic “A Christmas Story” followed
   by a moderated interview and audience Q&A from its iconic star... 
@@ -1121,8 +1121,8 @@ BEGIN:VEVENT
 SUMMARY:Love Actually in Concert
 DTSTART:20261227T013000Z
 DTEND:20261227T033000Z
-DTSTAMP:20261111T140555Z
-UID:fcc1db6d-cfe8-45dd-bfe0-4f6db8eb58fd
+DTSTAMP:20261112T150911Z
+UID:8a026413-86ed-45c6-9477-e9f685750b40
 DESCRIPTION:Fall in love with the holidays all over again at LOVE ACTUALLY
   IN CONCERT! As the beloved film plays in its entirety on a full-size scre
  en\, a live orchestra performs... 
@@ -1137,8 +1137,8 @@ BEGIN:VEVENT
 SUMMARY:Paula Poundstone
 DTSTART:20261017T003000Z
 DTEND:20261017T023000Z
-DTSTAMP:20261111T140555Z
-UID:eca3b554-c836-4984-a677-2a4db36ad629
+DTSTAMP:20261112T150911Z
+UID:425272f3-fbeb-4b48-834a-767f2cecab44
 DESCRIPTION:Iconic comedian Paula Poundstone is known for her smart\, obse
  rvational humor and a spontaneous wit that has become the stuff of legend.
   She regularly plays theaters across the country\, hosts... 
@@ -1152,8 +1152,8 @@ BEGIN:VEVENT
 SUMMARY:Cirque Musica: Holiday Wonderland
 DTSTART:20261222T013000Z
 DTEND:20261222T033000Z
-DTSTAMP:20261111T140555Z
-UID:8dc817cd-d569-4c18-b74f-53102b3b0352
+DTSTAMP:20261112T150911Z
+UID:81f88112-2ecb-454a-9318-3262640d46a1
 DESCRIPTION:This holiday season\, follow our heroes as they are transporte
  d into a dazzling winter wonderland where time seems to stand still. With 
  each daring act\, they grow younger\, rediscovering the... 
@@ -1169,8 +1169,8 @@ BEGIN:VEVENT
 SUMMARY:Golden Hoopers
 DTSTART:20261017T190000Z
 DTEND:20261017T203000Z
-DTSTAMP:20261111T140555Z
-UID:f460afbb-e35e-4ebf-b5f2-88a4bd57f36a
+DTSTAMP:20261112T150911Z
+UID:7cfb5ba4-1aa4-4750-80d8-69b1935fb0bf
 DESCRIPTION:The Golden Hoopers gather every Saturday from 2:00-3:30 p.m. a
  t the T. Boone Pickens YMCA for casual basketball and good company. Whethe
  r you\\'re making your first shot or your hundredth\,... 
@@ -1181,8 +1181,8 @@ BEGIN:VEVENT
 SUMMARY:The Billy Joel Legacy
 DTSTART:20261026T000000Z
 DTEND:20261026T020000Z
-DTSTAMP:20261111T140555Z
-UID:64d926bf-e2d9-427a-b94f-4ca73a335ec0
+DTSTAMP:20261112T150911Z
+UID:4f93361f-2867-4973-b969-214e1e8b90fa
 DESCRIPTION:From the producers of The Simon and Garfunkel Story and The Li
  fe and Music of George Michael comes The Billy Joel Legacy: Celebrating th
  e Piano Man— a dynamic celebration of... 
@@ -1197,35 +1197,19 @@ BEGIN:VEVENT
 SUMMARY:Let’s Talk Trash
 DTSTART:20261114T160000Z
 DTEND:20261114T200000Z
-DTSTAMP:20261111T140555Z
-UID:d47d30a4-3217-4771-9bd1-ba23c3949719
+DTSTAMP:20261112T150911Z
+UID:2f4dc398-e3d2-4fe5-866b-26e82cc377f0
 DESCRIPTION:Join Downtown Dallas\, Inc.\, in our Downtown parks on the sec
  ond weekend of the month to responsibly dispose of your e-waste and bulk t
  rash. Got trash? Downtown Dallas\, Inc.\, in... 
 URL:https://downtowndallas.com/event/lets-talk-trash-8/2026-11-14/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Let’s Talk Trash
-DTSTART:20261011T150000Z
-DTEND:20261011T190000Z
-DTSTAMP:20261111T140555Z
-UID:ce6ed774-bb41-425e-a10c-8ef77c1611da
-DESCRIPTION:Join Downtown Dallas\, Inc.\, in our Downtown parks on the sec
- ond Saturday of the month to responsibly dispose of your e-waste and bulk 
- trash. Got trash? Downtown Dallas\, Inc.\, in... 
-GEO:32.7808177;-96.7983442
-LOCATION:Main Street Garden\n1902 Main Street\nDallas\, Texas 75201\nUnite
- d States
-URL:https://downtowndallas.com/event/lets-talk-trash-7/2026-10-11/
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="MAIN STREET GARDEN":geo:32.
- 7808177,-96.7983442
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Soccer: More Than a Game Exhibit
-DTSTART:20261010T080000Z
-DTEND:20261011T075959Z
-DTSTAMP:20261111T140555Z
-UID:fa17de1e-a6ca-4b14-aba2-ac4d84b383a1
+DTSTART:20261011T080000Z
+DTEND:20261012T075959Z
+DTSTAMP:20261112T150911Z
+UID:f13986ca-4cf6-4a54-9f81-5d27cd4c3157
 DESCRIPTION:Soccer: More Than a Game has been extended through January 4\,
   2027! Due to popular demand\, the Perot Museum\\'s interactive exhibition
   is giving visitors even more time to experience the... 
@@ -1233,7 +1217,7 @@ GEO:32.786951;-96.8065993
 LOCATION:Perot Museum of Nature and Science\n2201 North Field Street\nDall
  as\, Texas 75201\nUnited States
 URL:https://downtowndallas.com/event/soccer-more-than-a-game-exhibit/2026-
- 10-10/
+ 10-11/
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="PEROT MUSEUM OF NATURE AND 
  SCIENCE":geo:32.786951,-96.8065993
 END:VEVENT
@@ -1241,8 +1225,8 @@ BEGIN:VEVENT
 SUMMARY:Bingo on the Green
 DTSTART:20261016T000000Z
 DTEND:20261016T020000Z
-DTSTAMP:20261111T140555Z
-UID:b8332141-0247-4948-9e6b-866de1613293
+DTSTAMP:20261112T150911Z
+UID:66289577-0426-4080-b642-c6953f906038
 DESCRIPTION:Join us every Thursday in September and October for Bingo on t
  he Green at Main Street Garden with prizes from Downtown businesses! Welco
  me to Downtown Bingo! Join Downtown Dallas\, Inc.\,... 
@@ -1257,8 +1241,8 @@ BEGIN:VEVENT
 SUMMARY:Lyle Lovett and his Small Large Band
 DTSTART:20261119T013000Z
 DTEND:20261119T033000Z
-DTSTAMP:20261111T140555Z
-UID:ce0d39ea-5794-4067-a1ea-608fbbeb20c9
+DTSTAMP:20261112T150911Z
+UID:3879a711-541e-4440-92c2-cd82174dea5e
 DESCRIPTION:A singer\, composer and actor\, Lyle Lovett has broadened the 
  definition of American music in a career that spans 14 albums. Coupled wit
  h his gift for storytelling\, the Texas-based musician... 
@@ -1273,8 +1257,8 @@ BEGIN:VEVENT
 SUMMARY:A Drag Queen Christmas
 DTSTART:20261221T013000Z
 DTEND:20261221T033000Z
-DTSTAMP:20261111T140555Z
-UID:ed7538f7-59c5-47e4-a885-0aacca5bffd5
+DTSTAMP:20261112T150911Z
+UID:64458a1c-b817-43fd-ba6a-b11411f95de7
 DESCRIPTION:PLEASE NOTE: This event is 18+ only. All patrons must present 
  valid ID for entry. Anyone 17 years or younger will not be allowed entry. 
  Murray & Peter Present “A... 
@@ -1289,8 +1273,8 @@ BEGIN:VEVENT
 SUMMARY:Hold On To Your Butts
 DTSTART:20261018T000000Z
 DTEND:20261018T020000Z
-DTSTAMP:20261111T140555Z
-UID:8888f310-4f46-4e5a-8bf4-56aad1b10d0b
+DTSTAMP:20261112T150911Z
+UID:9c13587c-3174-40b3-8b4c-21d6c050dc81
 DESCRIPTION:65 million years ago\, dinosaurs ruled the earth… 30 years a
  go\, a movie about dinosaurs ruled the box office… This year\, you are i
  nvited to… Hold On To Your Butts... 
@@ -1304,8 +1288,8 @@ BEGIN:VEVENT
 SUMMARY:Astonished Magic Show
 DTSTART:20261030T000000Z
 DTEND:20261030T010000Z
-DTSTAMP:20261111T140555Z
-UID:b10fa134-a7d6-41a9-b179-1bfe9b8f2d88
+DTSTAMP:20261112T150911Z
+UID:69d7b03f-256d-43bc-b6e9-adc954075d4d
 DESCRIPTION:Prepare to be amazed during Astonished\, an intimate 60-minute
   magic experience by mentalist Brice Harney. Hosted at Omni Dallas\, this 
  upscale evening combines mind-reading\, sleight of hand\, and a touch... 
@@ -1320,8 +1304,8 @@ BEGIN:VEVENT
 SUMMARY:Switchfoot with special guest Anberlin Forever Now Tour
 DTSTART:20261116T020000Z
 DTEND:20261116T040000Z
-DTSTAMP:20261111T140555Z
-UID:207d7e70-dbce-47bb-8a66-d42f7f64d3b1
+DTSTAMP:20261112T150911Z
+UID:cc14a56f-7e29-465b-9da7-e1f7074573ea
 DESCRIPTION:Experience Switchfoot’s FOREVER NOW TOUR at Strauss Square w
  ith special guest Anberlin for a high-energy night of alt-rock anthems and
   fan favorites under the Dallas skyline. 
@@ -1337,8 +1321,8 @@ BEGIN:VEVENT
 SUMMARY:Hospitality & Heroes Night
 DTSTART:20261011T080000Z
 DTEND:20261012T075959Z
-DTSTAMP:20261111T140555Z
-UID:3271d5d6-d9b8-4c8a-ac9f-3078be47f444
+DTSTAMP:20261112T150911Z
+UID:f84a3ce8-bdc2-4324-8e13-2bc9c9a9dafe
 DESCRIPTION:Every Sunday we’re closing out the week by celebrating the p
  eople who keep our city moving and our community vibrant. Every Sunday\, w
  e invite all Hospitality Professionals and First Responders... 
@@ -1349,8 +1333,8 @@ BEGIN:VEVENT
 SUMMARY:Wine Down Wednesday at Pegasus Pizza
 DTSTART:20261014T210000Z
 DTEND:20261015T000000Z
-DTSTAMP:20261111T140555Z
-UID:55c89092-7361-4ae6-a023-10200cbb579a
+DTSTAMP:20261112T150911Z
+UID:01b3ffd2-fbb1-49cb-80b1-59fcdda1c177
 DESCRIPTION:Join us every Wednesday from 4pm - 7pm! Unwind midweek with Wi
  ne Down Wednesday at Pegasus Pizza. It’s the perfect excuse to slow down
  \, relax\, and enjoy happy hour with... 
@@ -1366,8 +1350,8 @@ BEGIN:VEVENT
 SUMMARY:Downtown Goat Yoga
 DTSTART:20261017T150000Z
 DTEND:20261017T160000Z
-DTSTAMP:20261111T140555Z
-UID:551efd37-2057-45c1-bd3d-912db7ac3bcc
+DTSTAMP:20261112T150911Z
+UID:e028c634-73cc-4a6f-945c-a84f25bcb5f6
 DESCRIPTION:Join us for Goat Yoga at Harwood Park in Dallas! YOU are invit
  ed to GOAT YOGA in Dallas\, TX! Come and get your GOGA on while our tribe 
  of pet... 
@@ -1382,8 +1366,8 @@ BEGIN:VEVENT
 SUMMARY:Outlander in Concert Echoes Through the Highlands
 DTSTART:20261126T013000Z
 DTEND:20261126T030000Z
-DTSTAMP:20261111T140555Z
-UID:d852c17d-1c53-4b97-9abd-e3e0cb0be3b6
+DTSTAMP:20261112T150911Z
+UID:c7796f3c-cb87-4f71-8ec7-fb0ac146046b
 DESCRIPTION:Experience the official “Outlander” in-concert event! A li
  ve orchestra performs Bear McCreary’s acclaimed score\, curated by showr
  unner Matthew B. Roberts\, while highlights from eight seasons illuminate 
@@ -1398,24 +1382,24 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="MAJESTIC THEATRE":geo:32.78
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Happy Hour at Wild Bill’s Western Store
-DTSTART:20261011T170000Z
-DTEND:20261011T230000Z
-DTSTAMP:20261111T140555Z
-UID:12efddb4-8816-448c-a023-796c58cca83f
+DTSTART:20261018T170000Z
+DTEND:20261018T230000Z
+DTSTAMP:20261112T150911Z
+UID:7c331810-79bc-4b31-87dc-7ea5e061e35a
 DESCRIPTION:Every hour is happy hour at Wild Bill’s Western Store! Stop 
  in 7 days a week and enjoy a complimentary beverage on us — featuring TX
   bourbon\, beer\, wine\, and... 
 LOCATION:Wild Bill&#8217\;s Western Store\n311 N. Market St.\nDallas\, Tex
  as 75202\nUnited States
 URL:https://downtowndallas.com/event/happy-hour-at-wild-bills-western-stor
- e-3/2026-10-11/
+ e-3/2026-10-18/
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Happy Hour at Wild Bill’s Western Store
 DTSTART:20261015T153000Z
 DTEND:20261016T010000Z
-DTSTAMP:20261111T140555Z
-UID:2beb6507-1c32-4b15-888c-d0ab42b0ce4c
+DTSTAMP:20261112T150911Z
+UID:09fc1740-50e6-4814-8dce-9b0fcc4a6ace
 DESCRIPTION:Every hour is happy hour at Wild Bill’s Western Store! Stop 
  in 7 days a week and enjoy a complimentary beverage on us — featuring TX
   bourbon\, beer\, wine\, and... 
@@ -1428,8 +1412,8 @@ BEGIN:VEVENT
 SUMMARY:Taco Tuesday at Cafe Herrera
 DTSTART:20261013T210000Z
 DTEND:20261014T000000Z
-DTSTAMP:20261111T140555Z
-UID:eb1570ff-a1db-4e73-9b7d-72490e39e6d9
+DTSTAMP:20261112T150911Z
+UID:13e369f6-e849-4aad-836d-b2aad9dd0cab
 DESCRIPTION:Savor the spirit of Taco Tuesday at Café Herrera\, where bold
   flavors meet warm hospitality. Enjoy freshly crafted tacos and vibrant ha
  ppy hour selections in the heart of Omni Dallas.... 
@@ -1440,25 +1424,25 @@ URL:https://downtowndallas.com/event/taco-tuesday-at-cafe-herrera/2026-10-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Locals Night at Rodeo Bar
-DTSTART:20261011T160000Z
-DTEND:20261012T040000Z
-DTSTAMP:20261111T140555Z
-UID:b73cf516-a3d7-478d-997c-a1a99b31dd05
+DTSTART:20261018T160000Z
+DTEND:20261019T040000Z
+DTSTAMP:20261112T150911Z
+UID:d43d7f90-f9d9-44c8-8fa8-0a61b59593c9
 DESCRIPTION:Ladies Night every Wednesday at Rodeo Bar. Enjoy $5 margaritas
   and throwback hits from a 90s dance DJ. Ladies\, it’s your night! 
 GEO:32.7800411;-96.7997282
 LOCATION:Rodeo Bar\n1321 Commerce St.\nDallas\, Texas 75202\nUnited States
 URL:https://downtowndallas.com/event/ladies-night-at-rodeo-bar-2/2026-10-1
- 1/
+ 8/
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="RODEO BAR":geo:32.7800411,-
  96.7997282
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tiles and Teas: Mahjong Afternoon Tea at The Conservatory
-DTSTART:20261011T170000Z
-DTEND:20261011T210000Z
-DTSTAMP:20261111T140555Z
-UID:9e023beb-d0eb-45ba-a511-8e6fe6178415
+DTSTART:20261017T170000Z
+DTEND:20261017T210000Z
+DTSTAMP:20261112T150911Z
+UID:e4209437-3ce6-4030-beb9-4bd368a9d8f5
 DESCRIPTION:Join us for Mahjong Afternoon Tea at The Conservatory at Hotel
   Crescent Court\, hosted in partnership with Alyson Bell and The Mahjong L
  ine Tiles and Teas: Mahjong Afternoon Tea at... 
@@ -1466,7 +1450,7 @@ GEO:32.7941693;-96.8042468
 LOCATION:Hotel Crescent Court\n400 Crescent Court\nDallas\, Texas 75201\nU
  nited States
 URL:https://downtowndallas.com/event/tiles-and-teas-mahjong-afternoon-tea-
- at-the-conservatory/2026-10-11/
+ at-the-conservatory/2026-10-17/
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-TITLE="HOTEL CRESCENT COURT":geo:3
  2.7941693,-96.8042468
 END:VEVENT
@@ -1474,8 +1458,8 @@ BEGIN:VEVENT
 SUMMARY:Wild Salsa Taco Tuesday
 DTSTART:20261013T160000Z
 DTEND:20261014T030000Z
-DTSTAMP:20261111T140555Z
-UID:9de357ea-d4f2-453e-ad30-5e3dc3412472
+DTSTAMP:20261112T150911Z
+UID:ef5a9340-fd04-495d-94c4-0c12762ff00d
 DESCRIPTION:Come join us for Taco Tuesday. Enjoy our taco and drink specia
  ls all day long. From 11am to 10pm. 1800 Main Street 
 GEO:32.7810331;-96.7960457
@@ -1488,8 +1472,8 @@ BEGIN:VEVENT
 SUMMARY:Wild Salsa Wild Hour
 DTSTART:20261012T210000Z
 DTEND:20261012T230000Z
-DTSTAMP:20261111T140555Z
-UID:5f9a69ad-f066-4dd7-8e94-61c5dbd2c5ff
+DTSTAMP:20261112T150911Z
+UID:c4893b8d-2ded-4083-947a-777aea40544d
 DESCRIPTION:Come join us for Wild Hour. Every day from 4pm to 6pm. 1/2 pri
  ced appetizers and drink specials. 1800 Main Street. Closed on Sundays. 
 GEO:32.7810331;-96.7960457
@@ -1502,8 +1486,8 @@ BEGIN:VEVENT
 SUMMARY:Industry Night at Rodeo Bar
 DTSTART:20261012T210000Z
 DTEND:20261013T045900Z
-DTSTAMP:20261111T140555Z
-UID:fde80d11-5710-4978-85f6-0a6958b7c570
+DTSTAMP:20261112T150911Z
+UID:aa86bc06-8a5e-4de0-9de0-e61c526d8b14
 DESCRIPTION:This ain’t our first rodeo\, and we know it’s not yours ei
  ther. So industry legends\, bar maidens\, and gents clock out and join us 
  for a bite. Every Monday... 
